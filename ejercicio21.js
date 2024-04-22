@@ -13,8 +13,8 @@ const users = [
     if (edad.years>18) {
         mayores.push(edad.name)
     }
-    else (menores.push(edad.name))
+    else (menores.push(edad.name));
   }
 
-  console.log("Usuarios mayores de edad: "+(mayores))
-  console.log("Usuarios menores de edad: "+(menores))
+  console.log("Usuarios mayores de edad: "+(mayores));
+  console.log("Usuarios menores de edad: "+(menores));
